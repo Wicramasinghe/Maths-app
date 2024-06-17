@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    tools:context=".PlayActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:fontFamily="@font/thebomb"
+        android:text="Kid's Math's"
+        android:textAlignment="center"
+        android:textColor="#F44336"
+        android:textColorHighlight="@color/white"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/sub"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:backgroundTint="#8BC34A"
+        android:text="-"
+        android:textColor="#F43434"
+        android:textColorHighlight="#000000"
+        android:textColorLink="#9C27B0"
+        android:textSize="60sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/addition"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:backgroundTint="#DA3BE4"
+        android:text="+"
+        android:textColor="#F12A2A"
+        android:textSize="60sp" />
+
+    <Button
+        android:id="@+id/multiply"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:backgroundTint="#2196F3"
+        android:text="×"
+        android:textColor="#F12A2A"
+        android:textSize="60sp" />
+
+    <Button
+        android:id="@+id/divider"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:backgroundTint="#FFEB3B"
+        android:text="÷"
+        android:textColor="#EC1C1C"
+        android:textSize="60sp" />
+
+</LinearLayout>
